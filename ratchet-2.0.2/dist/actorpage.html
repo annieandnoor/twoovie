@@ -1,0 +1,122 @@
+<html>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ratchet template page</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+
+<style>
+    a {
+        text-decoration: none;
+        color: gray;
+    }
+    
+    #imgs{
+        text-align: center;
+    }
+    
+    .title {
+        text-align: center;
+        font-family: Calibri;
+        position: relative;
+        bottom: 38px;
+        right: 5px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #008080;
+    }
+    
+    img#profile {
+        height: 100px;
+        width: 80px;
+        position: relative;
+        bottom: 38px;
+        display: inline-block;
+    }
+    
+    #info {
+        float: right;
+        height: 30px;
+        width: 150px;
+        border: 1px solid #99ccff;
+        display: inline-block;
+        position:relative;
+        bottom: 38px;
+        font-size: 15px;
+        right: 61px;
+        font-family: Calibri;
+        text-align: center;
+    }
+    
+    .extra {
+        height:61px;
+        width: 61px;
+        display: inline-block;
+        float: right;
+        position: relative;
+    }
+    
+    #movies{
+        font-family:calibri;
+        color:#008080;
+        position:relative;
+        bottom:40px;
+        letter-spacing: 1px;
+    }
+    
+    #birth {
+        position: relative;
+        bottom: 9.5px;
+    }
+    
+    ul {
+        position: relative;
+        bottom: 50px;
+        list-style-type: none;
+    }
+    
+    #second {
+        position:relative;
+        bottom: 105px;
+        right: 65px;
+    }
+    
+</style>
+</head>
+    
+<body>
+<header class="bar bar-nav">
+  <button class="btn pull-left">
+    <a href="moviepage.hmtl">Back</a>
+  </button>
+  <h1 class="title">Jennifer Lawrence</h1>
+</header>
+    <div id=imgs>
+    <img id="profile" src="">
+    <div id="info"><p id="birth">August 15, 1990</p></div>
+    <img class="extra" src=""><img class="extra" id="second" src=""><br><br>
+    </div>
+        <div>
+    <h3 id="movies">Movies</h3>
+    <ul>
+    <li>Hunger Games</li>
+    <li>Catching Fire</li>
+    <li>American Hustle</li>
+    <li>Silver Linings Playbook</li>
+    </ul>
+        </div>
+</body>
+</html>
